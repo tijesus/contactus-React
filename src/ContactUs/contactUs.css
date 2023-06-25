@@ -1,0 +1,72 @@
+.header{
+display: flex;
+justify-content: center;
+gap: 50px;
+margin-top: 40px;
+
+}
+.header a{
+  text-decoration: none;
+  color: white;
+}
+.header a:hover{
+  background-color: white;
+  color: rgb(29, 175, 233);
+  padding: 7px 12px;
+  cursor: pointer;
+}
+.title{
+  margin: 0 auto;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.form{
+  background-color: rgb(29, 175, 233);
+  border: 3px solid white;
+  outline: none;
+  width: 300px;
+  margin: 0 auto;
+  color: white;
+}
+.form h2{
+  color: white;
+  text-align: center;
+}
+.form hr{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 200px;
+}
+.form label{
+  display: block;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.form input{
+  margin-left: 20px;
+  outline: none;
+  margin-top: 7px;
+  width: 250px;
+}
+.form textarea{
+  margin-left: 20px;
+  margin-top: 7px;
+  width: 250px;
+}
+.form button{
+  background-color: white;
+  color: rgb(29, 175, 233);
+  padding: 6px 20px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+.footer{
+  text-align: center;
+  color: white;
+}
